@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Time Tracker</title>
+    <style>
+      /* Light theme styles */
+      body[data-theme='light'] {
+        background-color: white;
+        color: black;
+      }
+
+      /* Dark theme styles */
+      body[data-theme='dark'] {
+        background-color: #1a1a1a;
+        color: white;
+      }
+
+      .site {
+        margin-bottom: 10px;
+      }
+
+      .site-name {
+        font-weight: bold;
+      }
+
+      .time-spent {
+        color: #c1c1c1;
+      }
+
+      /* Button styles */
+      .toggle-btn {
+        padding: 8px 16px;
+        margin-top: 10px;
+        background-color: #0c26d1;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Time Tracker</h1>
+    <div id="site-list"></div>
+
+    <!-- Dark mode/light mode toggle button -->
+    <button id="toggleMode" class="toggle-btn">Switch to Dark Mode</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

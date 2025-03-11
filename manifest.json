@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Time Tracker",
+    "description": "Tracks time spent on websites with dark mode support",
+    "version": "1.0",
+    "permissions": ["storage", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  
