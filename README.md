@@ -1,4 +1,5 @@
 **Time Tracker - Chrome Extension**
+
 Time Tracker is a Chrome extension that helps users monitor and track the time spent on different websites in real time. The extension features an intuitive interface, real-time tracking, and support for dark mode and light mode. It accurately logs time spent on active browser tabs, providing users with insights into their online activity, and helps improve productivity.
 
 **Installation:**
